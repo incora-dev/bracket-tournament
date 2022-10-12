@@ -12,12 +12,12 @@ Project is created with:
 * PostgreSQL
 
 ## Setup
-To run this project:
+To run this project do steps below:
 ```
 $ cd ../bracket-tournament
 $ create file .env file in root (.env-dist example) - fill with valid DB url and available port
 $ npm i
 $ npm run build
 $ npm run migration:run
-$ npm run start:dev
+$ npm run dev
 ```
